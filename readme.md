@@ -12,4 +12,4 @@ PlayerPermission.json (Example)
     }
 }
         
-        I am newbie  don't ask too many hard questions :3
+I am newbie  don't ask too many hard questions :3
