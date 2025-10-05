@@ -12,5 +12,6 @@
     "defaultIdentity": "Player"
   }
 }
-        
+
+you also need to create a file name  "PlayerPermission.json" in game/sharp/data      
 I am newbie  don't ask too many hard questions :3
