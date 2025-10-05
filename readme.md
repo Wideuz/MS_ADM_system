@@ -1,4 +1,4 @@
-    PlayerPermission.json (Example)
+PlayerPermission.json (Example)
     {
         "players": {
         "76561198212232364": "Admin",
