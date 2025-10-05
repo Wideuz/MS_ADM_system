@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Manager\**" />
+    <EmbeddedResource Remove="Manager\**" />
+    <None Remove="Manager\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="DatabaseExample.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.9" />
+    <PackageReference Include="ModSharp.Sharp.Shared" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <ProjectReference Include="..\Permission_Shared\Permission_Shared.csproj" />
+	  <ProjectReference Include="..\PlayerManager_Shared.Abstractions\PlayerManager_Shared.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
