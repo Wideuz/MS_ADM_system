@@ -15,3 +15,4 @@
 
 you also need to create a file name  "PlayerPermission.json" in game/sharp/data      
 I am newbie  don't ask too many hard questions :3
+僅供參考   if you need it to your own version please let me know
